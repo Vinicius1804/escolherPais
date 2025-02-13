@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qual é o seu páis?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Escolha um <span>PAÍS</span></h1>
+    </header>
+
+    <section>
+      <div>
+        <h3>Escolha um país:</h3>
+        <input type="radio" name="txtpais" id="jap" checked />
+        <label for="japao">Japão</label>
+
+        <input type="radio" name="txtpais" id="bra" />
+        <label for="brasil">Brasil</label>
+
+        <input type="radio" name="txtpais" id="fra" />
+        <label for="franca">França</label>
+
+        <input type="radio" name="txtpais" id="ind" />
+        <label for="india">Índia</label>
+
+        <input type="radio" name="txtpais" id="can" />
+        <label for="canada">Canadá</label>
+
+        <p>
+          <input
+            type="button"
+            value="Verificar mais sobre meu país"
+            onclick="verificarPais()"
+          />
+        </p>
+      </div>
+      <div id="resposta">Preencha acima e verifique mais sobre o seu pais</div>
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
